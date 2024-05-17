@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+.margin img{
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    position: absolute;
+    z-index: -2
+}
+.margin{
+    height: 98vh;
+    width: 98vw;
+    position: absolute;
+    background-image: url(Screenshot\ 2024-03-05\ 103954.png);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    filter: blur(100px);
+    z-index: -2;
+    
+
+
+}
+.main{
+    height: 90%;
+    width: 80%;
+    border: 1px solid black;
+    z-index: -1;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw; */
+    margin: 100px;
+    background-color: aliceblue;
+    position: absolute;   
+    display: flex;
+    
+}
+
+.left{
+    height: 90vh;
+    width: 50%;
+    border: 1px solid rgb(208, 59, 59);
+    float: left;
+    padding: 10px;
+    
+}
+.left img{
+    width: 100%;
+    height: 100%;
+
+}
+.right{
+    width:50% ;
+    height: 90vh;
+    float: left;
+    border: 1px solid blue;
+}
+/* .b1{
+    margin-left: 50px;
+}
+.b2{
+    margin-left: 50px;
+    color: lightgray;    
+}
+.b3{
+    font-size: 30px;
+}
+.star{
+    background-color: yellow;
+}
+.b4{
+    background-color: ghostwhite;
+    margin-left:30px;
+}
+.b5{
+    background-color: ghostwhite;
+    margin-left:30px;
+}
+.b6{
+    background-color: ghostwhite;
+    margin-left:30px;
+}
+.b7{
+    background-color: ghostwhite;
+    margin-left: 30px;
+}
+.b8{
+    margin-left: 30px;
+}
+.c1{
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    border-radius: 50px;
+    float: left;
+    margin-left: 30px;
+}
+.c2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.c3{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.c4{
+    height: 50px;
+    width: 50px;
+    background-color: lightcoral;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.header{
+    height: 125px;
+    width: 100px;
+    margin-left: 30px;
+    float: left;
+}
+.write{
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 300;
+} */

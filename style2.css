@@ -1,0 +1,99 @@
+.border{
+    background-color: lightblue;
+    width: 1000px;
+    height: 500px;
+   
+}
+ .top{ background-color: lightgreen;
+    width: 970px;
+    height: 50px;
+    margin: 10px;
+}
+.logo{
+    background-color: brown;
+    color: aliceblue;
+    float: left;
+	margin-left: 10px;
+    align-self: center;
+
+}
+.home{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.about{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.product{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.services{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.blog{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.contact{
+    background-color: aqua;
+    color: black;
+    float: right;
+	margin-left: 10px;
+
+}
+.middle{
+    background-color: grey;
+    height: 420px;
+    width: 1000px;
+    margin: auto;
+}
+.left{
+    background-color: red;
+    color: black;
+    width: 400px;
+    height: 400px;
+    font-size:larger;
+    float: left;
+}
+.right{
+    background-color: yellow;
+    color: black;
+    float: right;
+    width: 580px;
+    height: 400px;
+}
+.s1{
+    background-color: aqua;
+    float: left;
+    height: 350px;
+    width: 120px;
+}
+.s2{
+    background-color: aqua;
+    height: 350px;
+    width: 120px;
+}
+.s3{
+    background-color: aqua;
+    float: right;
+    height: 350px;
+    width: 120px;
+}

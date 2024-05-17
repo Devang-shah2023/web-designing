@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab-4 partC</title>
+</head>
+<body>
+	<fieldset>
+		<table cellpadding="5" cellspacing="5">
+			<h1 align="center"> Create Account</h1>
+			<tr>
+				<td>First name*<br><input type="text" name="fname" placeholder="enter your first name"></td>
+				<td>Last name <br><input type="text" name="lname" placeholder="enter your last name"></td>
+			</tr>
+			<tr>
+				<td colspan="2">Email*<br><input type="text" name="email" placeholder="enter your email" size="50"></td>
+			</tr>
+			<tr>
+				<td>Password*<br><input type="text" name="password" placeholder="enter your password"></td>
+				<td>Confirm Password*<br><input type="text" name="cpassword" placeholder="enter your password again"></td>
+			</tr>
+			<tr>
+				<td>Gender: <br><input type="radio" name="gender" value="Male">Male
+					<input type="radio" name="gender" value="Female">Female</td>
+				<td>Hobbies <br><input type="checkbox" id="1" name="music" value="hobby">
+                <label for="music">Music</label>
+<input type="checkbox" value="sports">
+<label for="sports"> Sports</label>
+<input type="checkbox" value="travel">
+<label for="travel">travel</label>
+<input type="checkbox" value="movies">
+<label for="movies">Movies</label></td>
+
+			</tr>
+			<tr>
+				<td>Source of Income<br> <select name="sincome"><option value="Employed">Employed </option>
+					<option value="business">Business </option>
+					<option value="industry"> Industry </option></td>
+
+				<td>Income<br><input type="range" value="20k">20K</td>
+			</tr>
+			<tr>
+				<td>Upload Profile Picture<br>
+					<input type="file" name="profile">
+				   </td>
+			</tr>
+
+		</table>
+	</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+*{
+    /* position: absolute; */
+}
+
+
+.margin{
+    width: 100vw;
+    height: 98vh;
+    border: 1px solid blueviolet;
+    z-index: -9;
+    margin-bottom: 10vh;
+    filter: blur(40px);
+}
+.margin img{
+    height: 100%;
+    width: 100%;
+}
+.cont{
+    width: 65vw;
+    height: 90vh;
+    z-index: 1;
+    border: 1px solid green;
+    top: 9vh;
+    left: 6.7vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    background-color: aliceblue;
+    position:absolute;
+}
+.right{
+    border: 1px solid salmon;
+    width: 45%;
+    height: 90vh;
+    float:right;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    
+
+}
+.left{
+    border: 1px solid blue;
+    width: 50%;
+    height: 90vh;
+    float: left;
+    
+    
+
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 60%;
+    height: 5vh;
+    border: 1px solid blueviolet;
+    bottom: 100vh;
+    z-index: 5;
+    left: 15vw;
+    /* position: relative; */
+}
+.back{
+   
+    word-spacing: 0.3em;
+    font-weight: bolder;
+    color: rgb(15, 15, 90)
+
+}
+.back a{
+    text-decoration: none;
+    color: rgb(15, 15, 90);
+}
+.bedroom{
+    font-size: small;
+    padding-top: 3vh;
+    color: gray;
+}
+.h h2{
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+.star{
+    color: rgb(234, 189, 10);
+    font-size: medium;
+    padding-top: 1vh;
+}
+.star span{
+    color: black;
+}
+.quality{
+    padding-top: 2vh;
+}
+.quality span{
+    font-weight: bold;
+}
+.quality span input[button]{
+    size: 3em;
+    padding: 0;
+    margin: 0;
+    word-spacing: 0;
+}
+.quality span input{
+    width: 8vw;
+    height: 4vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 0.1px ridge grey;
+    display: inline-block;
+    
+
+}
+.style{
+    padding-top: 2vh;
+
+}
+.style span{
+    font-weight: bold;
+}
+.style button{
+    border-radius: 15px;
+    margin-right: 1vw;
+    height: 4vh;
+    width: 5vw;
+    border: 0.1px ridge grey;
+    padding: 0;
+    background-color: white;
+    
+}
+.color{
+    padding-top: 2vh;
+
+}
+.color span{
+    font-weight: bold;
+} 
+.color span button{
+    height: 4vh;
+    width: 2vw;
+    margin-right: 15px;
+    border-radius: 30px;
+    border: 0.1px ridge grey;
+}
+.b1{
+    background-color: rgb(13, 224, 154);
+}
+.b2{
+    background-color: black;
+}
+.b3{
+    background-color: rgb(126, 123, 123);
+}
+.b4{
+    background-color: white;
+}
+.size{
+    padding-top: 2vh;
+
+}
+.size span{
+    font-weight: bold;
+}
+.size button{
+    border-radius: 15px;
+    margin-right: 1vw;
+    height: 4vh;
+    width: 5vw;
+    border: 0.1px ridge grey;
+    padding: 0;
+    background-color: white;
+    
+}
+.slider button{
+    margin-right: 15px;
+    height: 3vh;
+    width: 8vw;
+    background-color: aliceblue;
+    border: none;
+}

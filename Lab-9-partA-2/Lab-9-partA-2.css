@@ -1,0 +1,52 @@
+body{
+  position: relative;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* border: 1px solid red; */
+}
+.moving-div {
+    width: 40%;
+    height: 50%;
+    background-color: blue;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    animation: move-around 5s ease-in-out infinite alternate-reverse;
+    box-shadow: 0 0 50px #00cfea;
+  }
+
+  
+  @keyframes move-around {
+    0% {
+      left: 0;
+      top: 0;
+      background-color: red;
+      
+    }
+    25% {
+      right: 0;
+      top: 50%;
+      background-color: green;
+      
+    }
+    50% {
+      right: 60%;
+      bottom: 50%;
+      background-color: magenta;
+      
+    }
+    75% {
+      left:60%;
+      bottom: 50%;
+      background-color: rgb(6, 243, 176);
+      
+    }
+    100% {
+      left: 0; 
+      top: 0;
+      background-color: yellow;
+      
+    }
+  }
+  

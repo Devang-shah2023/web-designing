@@ -1,0 +1,19 @@
+.changing-color {
+    width: 200px;
+    height: 100px;
+    background-color: red; 
+    animation: color-change 5s ease-in-out infinite;
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  

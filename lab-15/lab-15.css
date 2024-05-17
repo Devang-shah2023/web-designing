@@ -1,0 +1,27 @@
+
+.main{
+    background-color: skyblue;
+
+}
+.info{
+    background-color: rgb(64, 6, 64);
+    color: aliceblue;
+}
+.fc{
+    background-color: orange;
+}
+.ct{
+    background-color: orange;
+    float: left;
+    
+}
+.a{
+    background-color: black;
+    color: white;
+}
+.sb{
+    color: white;
+}
+.side{
+    height: 5vh;
+}

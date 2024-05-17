@@ -1,0 +1,68 @@
+.bg{
+    background-image: url("./plain-background-empty-vertical-backdrop-raster-illustration_7954-36681.avif");
+    background-repeat: no-repeat;
+    height: 2000vh;
+    width: 90%;
+    background-size: 100%, 100%;
+    position: absolute;
+    padding: 70px;
+}
+.center{
+      align-self: center;
+      height: 1200px;
+      width: 100%;
+}
+.main-body{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.icon{
+    border: 2px solid red;
+    color: red; 
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    float: left;
+
+}
+.properties{
+    margin-left: 20%;
+    margin-top: 20px;
+   
+}
+.searchbar{
+    float: right;
+    padding-right: 200px;
+
+}
+
+input[type=text]{
+    border: none;
+    /* border-radius: 75; */
+    -webkit-border-radius:15px;
+}
+
+input[type=button]{
+    background-color: red;
+    -webkit-border-radius:15px;
+    border: none;
+}
+
+.writing{
+    color: white;
+    margin-bottom: 500px;
+    margin-top: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+h1{
+    size: 100px;
+    font-weight: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
